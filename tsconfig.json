@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
@@ -20,9 +21,11 @@
   },
   "include": [
     "next-env.d.ts",
+    "styled-components.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],
+  "types": ["node", "jest", "@testing-library/jest-dom"],
   "exclude": [
     "node_modules"
   ]
