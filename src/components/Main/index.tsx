@@ -11,7 +11,7 @@ const Main: FC<iProps> = ({
   description = 'Typescript, React, NextJS and Styled Components'
 }) => (
   <S.Wrapper>
-    <S.Logo src="/img/logo.svg" />
+    <S.Logo src="/img/logo.svg" alt="logo-react" />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.Illustration src="/img/hero-illustration.svg" alt="Coding" />
